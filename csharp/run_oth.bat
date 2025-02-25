@@ -1,1 +1,1 @@
-cbgs_test localhost oth robot_oth robot_oth 5 3
+dotnet cbgs_test.dll nowcan.cn oth robot_oth robot_oth 5 3

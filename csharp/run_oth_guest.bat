@@ -1,1 +1,1 @@
-cbgs_test localhost oth 5 3
+dotnet cbgs_test.dll nowcan.cn oth 5 3
