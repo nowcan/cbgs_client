@@ -1,3 +1,13 @@
 {
-    "dotnet.defaultSolution": "cbgs_test.sln"
+    "dotnet.defaultSolution": "cbgs_test.sln",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "black-formatter.args": [
+        "--line-length",
+        "150"
+    ],
+    "python.formatting.provider": "none",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
