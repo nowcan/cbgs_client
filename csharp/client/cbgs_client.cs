@@ -119,6 +119,8 @@ namespace cbgs_client_cs
         {
             CHALLENGE_ACCEPT = 0,                   //接受挑战
             CHALLENGE_DENIED,                       //拒绝挑战
+            CHALLENGE_OFFLINE,                      //对手离线
+            CHALLENGE_NOT_VALID,                    //挑战已失效
             CHALLENGE_MAX = 0xfffffff
         };
 
@@ -126,6 +128,8 @@ namespace cbgs_client_cs
         {
             DENINED_NO_SUCH_USER = 0,
             DENINED_USER_IS_BUSY,
+            DENINED_PENDING,
+            DENINED_NO_ACK,
             DENINED_MAX = 0xfffffff
         };
 
